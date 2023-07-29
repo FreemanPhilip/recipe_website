@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devcie-width, initial-scale=2.0">
+    <title>
+        Recipe website 
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html" target="_self">Free<span>Recipe</span></a>
+        </div>
+        <div class="navdetails">
+            <div class="menulist">
+                <ul>
+                    <li><a href="index.html" target="_self">Home</a></li>
+                    <li><a href="#">Favorite</a></li>
+                    <li><a href="categories.html" target="_self">Categories</a></li>
+                                     
+                </ul>
+                <div id="searchbar">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Search for recipe">
+                    <!-- <button type="submit">Search Item -->
+                       
+                </div>
+                      </div>
+                    
+                        
+                      <a href="sharerecipe.html" target="_self">
+                        <button type="button" class="sharebutton">
+                            Share Recipe
+                          
+                        </button>
+                    </a>
+                     
+                      
+        </div>
+        
+    </nav>
+    <hr>
+
+
+<!-- share recipe content -->
+<div class="formcontent">
+<div class="share"><h3>Share Recipe</h3></div>
+
+
+
+    <form action="submit" class="form">
+       <label for="text">Recipe Title
+        <input type="text" name="text" class="text">
+       </label>
+     <label for="selectcontent">Recipe Categories
+        <select name="selectcontent" id="selectcontent" >
+            <option >Breakfast</option>
+            <option >Pastries</option>
+            <option >Salads</option>
+            <option >Lunch</option>
+            <option >Drinks</option>
+            <option >Deserts</option>
+          </select>
+     </label> 
+       <div class="wrapitem">
+        <label for="text">Cooking Time
+            <input type="text" name="text" Class="text box">
+           </label>
+           <label for="text" class="margin">Calorie Count
+            <input type="text" name="text" Class="text box">
+           </label>
+       </div>
+       <label for="Cover-Image">Cover Image
+<div class="uploadcontent">
+    <div class="coverimage">
+        <i class="fa fa-upload" aria-hidden="true"></i>
+    <input type="file" name="picture" class="Cover-Image" accept="Image/*"> 
+    
+    </div>
+    <div class="upload">No file Choosen</div>
+</div>
+       </label>
+      
+    </form>
+</div>
+
+
+
+
+</body>
