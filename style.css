@@ -240,7 +240,7 @@ body{
     justify-content: center;
     height: auto;
     /* background-color: aqua; */
-    margin: 0px 145px;
+    margin: 0px 245px;
     margin-bottom: 100px;
     
 }
@@ -322,15 +322,18 @@ background-image: url(assets/pic2.jpg);
 
 
 .formcontent{
-    margin: 0px 145px;
+    margin: 0px 245px;
+    align-items: center;
+    justify-content: center;
 }
 .form{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: auto;
     align-items: center;
     justify-content: center;
     display: flex;
     gap: 32px;
+    margin-top: 30px;
     flex-direction: column;
 }
 .share h3{
@@ -352,14 +355,14 @@ label input{
     outline: none;
     border: none;
     background-color: #f6f6f6;
-    width: 552px;
+    width: auto;
     height: 59px; 
     padding: 5px 20px;
     border-radius: 8px;
     font-size: 16px;
     font-weight: 100px;
     color: rgba(42, 42, 42, 1);
-    
+    cursor: pointer;
 
 }
 select{
@@ -406,32 +409,57 @@ select option{
 .margin{
     margin-left: 20px;
 }
-.uploadcontent{
-    display: flex;
-    align-items: center;
-}
-.coverimage{
-background-color: #f6f6f6;
-display: flex;
-flex-direction: center;
-}
-.coverimage i{
-    padding-left: 30px;
-    align-items: center;
-}
-.coverimage input[type="file"] {
-    display: flex;
-  }
-.coverimage::file-selector-button {
-    content: "Upload";
-    padding-right: 5px;
-    outline: none;
-    border: none;
-  }
-label input .Cover-Image{
-    background-color: transparent;
-}
 
+  .coverimage{
+   padding: 20px 20px;
+    border-radius: 2px;
+    border: none;
+    color:#752930;
+      }
+  .coverimage::-webkit-file-upload-button{
+    color:#752930;
+    background: white;
+    border-radius: o;
+    border:none;
+    padding: 20px 10px;
+    cursor: pointer;
+    }
+    
+    #Description{
+        height: 200px;
+        font-size: 18px;
+        padding: 20px 20px 25px;
+        color: #2a2a2a;
+        background-color:  #f6f6f6;;
+        resize: none;
+        outline: none;
+        border: none;
+
+    }
+    .send{
+        width:552px;
+        background-color: #752930;
+        height: 50px; 
+        padding: 16px 191px;
+        border-radius: 30px;
+        color: #ffff; 
+        font-size: 18px;
+        border: none;
+
+    }
+    .send:hover{
+        background-color: #2a2a2a;
+    }
+/* 
+label .upload-button input{
+  display: inline-block;
+  /* padding: 10px 20px; */
+  /* background-color: #007bff; */
+/*   
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */ 
 
 
 
