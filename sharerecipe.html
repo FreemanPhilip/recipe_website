@@ -22,7 +22,7 @@
             <div class="menulist">
                 <ul>
                     <li><a href="index.html" target="_self">Home</a></li>
-                    <li><a href="#">Recipes</a></li>
+                    <li><a href="recipe.html">Recipes</a></li>
                     <li><a href="categories.html" target="_self">Categories</a></li>
                                      
                 </ul>
@@ -56,11 +56,11 @@
 
 
     <form action="submit" class="form">
-       <label for="text">Recipe Title
-        <input type="text" name="text" class="text">
+       <label for="Recipetitle">Recipe Title
+        <input type="text" name="text" class="Recipetitle" required>
        </label>
      <label for="selectcontent">Recipe Categories
-        <select name="selectcontent" id="selectcontent" >
+        <select name="selectcontent" id="selectcontent" required>
             <option >Breakfast</option>
             <option >Pastries</option>
             <option >Salads</option>
@@ -71,24 +71,31 @@
      </label> 
        <div class="wrapitem">
         <label for="text">Cooking Time
-            <input type="text" name="text" Class="text box">
+            <input type="text" name="text" Class="Calorietime" required>
            </label>
            <label for="text" class="margin">Calorie Count
-            <input type="text" name="text" Class="text box">
+            <input type="text" name="text" Class="caloriecount" required>
            </label>
        </div>
        <label for="coverimage" class="cover-image">Cover image
-        <input type="file" name class="coverimage">
+        <input type="file" name class="coverimage" required> 
        </label>
        <label for="Description" class="RecipeDescription">Recipe Description
-        <textarea name="Description" id="Description"  placeholder="Text goes here"></textarea>
+        <textarea name="Description" id="Description"  placeholder="Text goes here" required></textarea>
        </label>
-       <button type="submit" class="send">Send</button>
+       <button type="submit" onclick="send(validation)" class="send">Send</button>
       
     </form>
+    
+</div>
+
+<div class="copyright">
+    <hr>
+    <p> &#169;freecipe@2023 all right reserve </p>
 </div>
 
 
 
 
 </body>
+</html>

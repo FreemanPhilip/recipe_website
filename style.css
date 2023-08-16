@@ -114,6 +114,18 @@ body{
     margin-left: 25px;
 
 }
+li a:hover {
+    color: red;
+}
+
+
+li a:active {
+  color: #752930;;
+}
+
+
+
+
 
 /* .navbar .max-with{
     display:flex;
@@ -298,7 +310,7 @@ hr{
 
 }
 .Categories-card:hover{
-    box-shadow: 1px 4px 12px #4f4e4e ;
+    box-shadow: 1px 4px 5px #4f4e4e ;
 }
 
 
@@ -325,7 +337,12 @@ background-image: url(assets/pic2.jpg);
     margin: 0px 245px;
     align-items: center;
     justify-content: center;
+    /* margin-bottom: 100px; */
 }
+
+
+
+
 .form{
     /* border: 1px solid black; */
     height: auto;
@@ -334,6 +351,7 @@ background-image: url(assets/pic2.jpg);
     display: flex;
     gap: 32px;
     margin-top: 30px;
+  
     flex-direction: column;
 }
 .share h3{
@@ -449,6 +467,21 @@ select option{
     }
     .send:hover{
         background-color: #2a2a2a;
+    }
+    .copyright{
+        justify-content: center;
+        margin-top: 100px;
+        gap: 10px;
+         }
+    .copyright p{
+        align-content: center;
+        text-align: center;
+        color:#535252;
+        margin-bottom: 30px;
+
+    }
+    .copyright hr{
+     margin-bottom: 10px;
     }
 /* 
 label .upload-button input{

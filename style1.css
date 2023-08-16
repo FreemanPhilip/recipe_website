@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    
+   
+    
+    font-family: 'Sora';
+}
+section{
+    display: block;
+    justify-content: center;
+    /* border: 10px solid black; */
+    align-items: center;
+    margin: 30px 245px;
+    height: 100vh;
+ 
+    /* background-color: red; */
+}
+.recipeTag{
+    font-size: 64px;
+    color: #2A2A2A;
+}
+
+.recipecontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* background-color: yellow; */
+    margin: 20px 0px;
+    
+}
+.recipecard{
+    width: 400px;
+    height: 140px;
+    
+    border: 2px solid rgb(220, 219, 219);
+    border-radius: 8px;
+    display: flex;
+    padding:10px 10px;
+    background-color: rgb(255, 255, 255);
+   
+}
+.recipecard:hover{
+    box-shadow: 1px 4px 5px #4f4e4e ;
+    border: none;
+}
+
+img .image{
+    border-radius: 4px;
+    padding-right: 10px;
+}
+img{
+    padding-right: 10px;
+    align-items: center;
+    
+}
+h5{
+    display: flex;
+    font-weight: 400px;
+    color: #4f4e4e;
+    
+    padding:5px 0px;
+    
+}
+.recipecontent{
+    display: block;
+    margin: 0px 10px;
+    /* padding-top: 10px; */
+    justify-content: space-between;
+}
+
+.recipe-title{
+    font-size: 24px;
+    font-weight: 400px;
+    padding: 10px 0px;
+}
+.recipe-ingredient{
+    margin-top: 10px;
+}
+.Description{
+    margin-top: 10px;
+}
+a .cardnavigation{
+    text-decoration: none;
+    color:none;
+}
