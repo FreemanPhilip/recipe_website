@@ -69,48 +69,6 @@
 //     return recipeCard;
 //   }
 
-
-
-
-
-
-
-function validation(){
-var title = document.getElement('Recipetitle').Value;
-var recipeCategorie = document.getElementById('selectcontent').Value;
-var caloriecount = document.getElementById('caloriecount').Value;
-var calorietime = document.getElementById('calorietime').Value;
-var Description = document.getElementById('Description').Value;
-
-
-
-
-if (title === "") {
-  title.innerHTML = "**Please provide a value**";
-  return false;
-}
-
-if (typeof title.value === 'number') {
-  title.innerHTML = "**Your details need to be words**";
-  return false;
-}
-
-if (caloriecount =="")
-{
-  caloriecount.innerHTML="**please provide a value**"
-  return false;
-}
-if (calorietime =="")
-{
-  calorietime.innerHTML="**please provide a value**"
-  return false;
-}
-if (Description =="")
-{
-  Description.innerHTML="**please provide a value**"
-  return false;
-}
-}
 function send(validation) {
   if (validation()) {
     console.log("Sending data...");
@@ -119,3 +77,53 @@ function send(validation) {
     console.log("Validation failed. Data not sent.");
   }
 }
+
+
+
+
+
+function validation() {
+  var title = document.getElementById('Recipetitle').value;
+  var recipeCategorie = document.getElementById('selectcontent').value;
+  var caloriecount = document.getElementById('caloriecount').value;
+  var calorietime = document.getElementById('calorietime').value;
+  var Description = document.getElementById('Description').value;
+  var coverImage = document.getElementById('coverimage').value;
+console.log({
+  title,caloriecount,recipeCategorie,calorietime,Description,coverImage
+});
+
+  if (title === "") {
+    alert("**Please provide a recipe title**");
+    return false;
+  }
+
+  if (isNaN(caloriecount)) {
+    alert("**Calorie count should be a number**");
+    return false;
+  }
+
+  if (caloriecount === "") {
+    alert("**Please provide a calorie count**");
+    return false;
+  }
+
+  if (calorietime === "") {
+    alert("**Please provide a calorie time**");
+    return false;
+  }
+
+  if (Description === "") {
+    alert("**Please provide a recipe description**");
+    return false;
+  }
+
+  return true;
+}
+
+document.getElementById('myForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+  console.log("send function run");
+  send(validation);
+});
+

@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 body{
     
@@ -11,12 +11,7 @@ body{
     
     font-family: 'Sora';
 }
-/* .max-with{
-    padding: 0 100px;
-    display: flex;
-    margin: auto;
-} */
-/* navbar styling decoration */
+
 .navbar{
     background-color:  rgb(255, 254, 254);
     margin: 0px;
@@ -127,18 +122,6 @@ li a:active {
 
 
 
-/* .navbar .max-with{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    
-} */
-
-
-
-
-
-
 
 
 
@@ -242,59 +225,41 @@ li a:active {
 
 
 
-/* card design in the categories*/
-.CategoriesHOME{
-    display: flex;
-    /* margin-top: auto; */
-    /* border: 10px solid black; */
-    flex-direction: column;
-    /* margin-top: 138px; */
-    justify-content: center;
-    height: auto;
-    /* background-color: aqua; */
-    margin: 0px 245px;
-    margin-bottom: 100px;
-    
-}
 
-
-
-.CategoriesHOME h3{
-    position: relative;
-    font-size: 32px; 
-   
-    font-weight: 300px;  
-    margin-top: 10px;
-   
-   
-}
 
 .recipecontainer{
     display: grid;
-    gap: 10px;
-    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 10px; */
+    align-items: center;
+
     color: #101010;
+   
     
-    
-}
+} 
+
 hr{
     border: 1px solid rgb(219, 217, 217);
 }
-.categories{
+
+
+/* .categories{
     color: rgb(77, 76, 76);
-}
-.recipecontainer .Categories-card{
-    /* border: 1px solid #101010; */
-    border-radius: 8px;
-    width: 398px;
+} */
+
+
+
+/* .recipecontainer .Categories-card{
+     width: 398px;
     height: 314px; 
     position: relative; 
     margin-top: 30px;
     background-color: rgb(29, 29, 29);
    
 
-}
+} */
+
+
 .label{
     position: absolute;
     color: #ffffff;

@@ -1,0 +1,120 @@
+
+
+
+
+
+
+
+
+
+
+  
+  [
+{
+    "catID": 1,
+    "name": "tea",
+    "image_url": "C:/xampp/htdocs/recipe_website/databaseimage/tea.jpeg",
+    "description": "A soothing cup of classic tea, perfect for a relaxing moment.",
+    "ingredient": "Tea leaves or tea bags, water, sugar (optional), milk (optional)",
+     "method": "1. Boil water and pour it into a teapot.\n2. Add tea leaves or tea bags to the teapot...\n3. Let it steep for 3-5 minutes, depending on your preference.\n4. If desired, add sugar and milk to taste.\n5. Stir well and pour the tea into cups. Enjoy!"
+  },
+
+  {
+    "catID": 2,
+    "name": "tea",
+    "image_url": "C:/xampp/htdocs/recipe_website/databaseimage/cereal.jpeg",
+    "description": "A soothing cup of classic tea, perfect for a relaxing moment.",
+    "ingredient": "Tea leaves or tea bags, water, sugar (optional), milk (optional)",
+     "method": "1. Boil water and pour it into a teapot.\n2. Add tea leaves or tea bags to the teapot...\n3. Let it steep for 3-5 minutes, depending on your preference.\n4. If desired, add sugar and milk to taste.\n5. Stir well and pour the tea into cups. Enjoy!"
+  },
+
+
+
+
+
+    {
+      "catID": "1",
+      "name": "Delicious Chocolate Cake",
+      "image_url": "https://example.com/chocolate-cake.jpg",
+      "description": "A rich and moist chocolate cake that will satisfy your cravings.",
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "1 3/4 cups granulated sugar",
+        "3/4 cup unsweetened cocoa powder",
+        "1 1/2 teaspoons baking powder",
+        "1 1/2 teaspoons baking soda",
+        "1 teaspoon salt",
+        "2 large eggs",
+        "1 cup milk",
+        "1/2 cup vegetable oil",
+        "2 teaspoons vanilla extract",
+        "1 cup boiling water"
+      ],
+      "method": [
+        "Preheat oven to 350°F (175°C). Grease and flour two 9-inch round cake pans.",
+        "In a large bowl, whisk together flour, sugar, cocoa powder, baking powder, baking soda, and salt.",
+        "Add eggs, milk, oil, and vanilla extract. Beat on medium speed for 2 minutes.",
+        "Stir in boiling water (batter will be thin). Pour batter evenly into prepared pans.",
+        "Bake in preheated oven for 30 to 35 minutes, or until a toothpick inserted into the center comes out clean.",
+        "Allow cakes to cool in pans for 10 minutes, then remove from pans and transfer to wire racks to cool completely.",
+        "Frost with your favorite frosting and enjoy!"
+      ]
+    },
+    {
+      "catID": "2",
+      "name": "Classic Spaghetti Bolognese",
+      "image_url": "https://example.com/spaghetti-bolognese.jpg",
+      "description": "A hearty and flavorful Italian pasta dish with a rich meaty sauce.",
+      "ingredients": [
+        "1 pound ground beef",
+        "1 onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1 carrot, grated",
+        "1 celery stalk, finely chopped",
+        "1 can (28 ounces) crushed tomatoes",
+        "1/4 cup tomato paste",
+        "1/2 cup red wine",
+        "1 teaspoon dried oregano",
+        "1 teaspoon dried basil",
+        "Salt and pepper to taste",
+        "1 pound spaghetti",
+        "Grated Parmesan cheese for serving"
+      ],
+      "method": [
+        "In a large pot, brown the ground beef over medium heat. Drain excess fat.",
+        "Add chopped onion, minced garlic, grated carrot, and chopped celery. Cook until vegetables are soft.",
+        "Stir in crushed tomatoes, tomato paste, red wine, oregano, basil, salt, and pepper. Simmer for about 30 minutes.",
+        "While the sauce simmers, cook spaghetti according to package instructions. Drain and set aside.",
+        "Serve the sauce over cooked spaghetti and sprinkle with grated Parmesan cheese."
+      ]
+    },
+    {
+      "catID": "3",
+      "name": "Homestyle Chicken Pot Pie",
+      "image_url": "https://example.com/chicken-pot-pie.jpg",
+      "description": "A comforting and classic chicken pot pie with a flaky crust.",
+      "ingredients": [
+        "1 pound boneless, skinless chicken breasts, cooked and diced",
+        "2 cups frozen mixed vegetables (peas, carrots, corn)",
+        "1/3 cup butter",
+        "1/3 cup all-purpose flour",
+        "1/2 teaspoon salt",
+        "1/4 teaspoon black pepper",
+        "1/4 teaspoon dried thyme",
+        "1 3/4 cups chicken broth",
+        "2/3 cup milk",
+        "1 package refrigerated pie crusts"
+      ],
+      "method": [
+        "Preheat oven to 425°F (220°C).",
+        "In a large skillet, melt butter over medium heat. Stir in flour, salt, pepper, and thyme until well combined.",
+        "Gradually whisk in chicken broth and milk. Cook and stir until the mixture thickens and becomes bubbly.",
+        "Add cooked chicken and frozen vegetables. Stir to combine and remove from heat.",
+        "Roll out one pie crust and place it in a 9-inch pie dish. Pour the chicken and vegetable mixture into the crust.",
+        "Roll out the second pie crust and place it over the filling. Seal and crimp the edges. Cut a few slits in the top crust for venting.",
+        "Bake for 30 to 35 minutes, or until the crust is golden brown and the filling is bubbly.",
+        "Let cool for a few minutes before serving."
+      ]
+    }
+   
+  ]

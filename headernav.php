@@ -7,21 +7,24 @@
         Recipe website 
     </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 </head>
 <body>
-    <nav class="navbar">
+
+<nav class="navbar">
         <div class="logo">
-            <a href="index.html" target="_self">Free<span>Recipe</span></a>
+            <a href="index.php" target="_self">Free<span>Recipe</span></a>
         </div>
         <div class="navdetails">
             <div class="menulist">
                 <ul>
-                    <li><a href="index.html" target="_self">Home</a></li>
-                    <li><a href="recipe.html">Recipe</a></li>
-                    <li><a href="categories.html" target="_self">Categories</a></li>
+                    <li><a href="index.php" target="_self">Home</a></li>
+                    <li><a href="recipe.php">Recipe</a></li>
+                    <li><a href="categories.php" target="_self">Categories</a></li>
                                      
                 </ul>
                 <div id="searchbar">
@@ -33,7 +36,7 @@
                       </div>
                     
                         
-                        <a href="sharerecipe.html" target="_self">
+                        <a href="sharerecipe.php" target="_self">
                             <button type="button" class="sharebutton">
                                 Share a Recipe
                               
@@ -44,41 +47,10 @@
         </div>
         
     </nav>
+    <hr>
 
 
 
 
 
-
-
-
-    <!-- content of the website -->
-    <div class="content">
-            <h3>Welcome to 
-                Recipe Store</h3>
-            <p> Cook. Share. Savor.</p>
-           <div id="buttoncontent">
-             <button type="button" class="button">
-                Find a recipe
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-
-                <!-- <i class="fa fa-align-item"></i> -->
-            </button>
-        </div>
-       
-        
-        <div id="results">
-            
-        </div>
-
-    </div>
-   
-    
-  </div>
-  <script src="script.js"></script>
 </body>
-
-
-
-
-</html>
